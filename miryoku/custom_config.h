@@ -1,5 +1,5 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#include MIRYOKU_EXTRA=QWERTY
-#include MIRYOKU_KLUDGE_5OFT_OFF
+#include MIRYOKU_EXTRA_QWERTY
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
