@@ -12,3 +12,12 @@
 #define LCTRL LEFT_GUI
 
 #include "../miryoku/miryoku.dtsi"
+
+// The out-of-tree board supplies these pinctrl states but omits their names.
+&uart0 {
+  pinctrl-names = "default", "sleep";
+};
+
+&i2c0 {
+  pinctrl-names = "default", "sleep";
+};
